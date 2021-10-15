@@ -2,4 +2,6 @@ Time Complexity: O(n^2) vì có 2 vòng for lồng nhau.
 Auxiliary Space: O(1)
 
 Tuy thời gian chạy là O(n^2), Selection Sort có 1 điều tốt là nó không bao giờ tạo ra nhiều hơn O(n) swaps.
-Hữu ích nếu bộ nhớ tốn kém và thiếu thốn, và nó không yêu cầu thêm dung lượng
+Hữu ích nếu bộ nhớ tốn kém và thiếu thốn, và nó không yêu cầu thêm dung lượng.
+
+Ta có thể tối ưu lên O(n) (kèm file cùng folder).
