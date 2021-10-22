@@ -1,0 +1,32 @@
+#insertion sort
+// time : 16 with 4kints
+//          0 with 1Kints
+//         31 with 8Kints = 4Kints * 2
+// time : 0 with n = 5 and random arr
+//        1062 with n = 1000 and random arr
+//        1607 with n = 1000 and increase arr
+//        >1700 with n = 1000 and decrease arr
+//        1453 with n = 1000 and samevalue arr
+#merge sort
+// time = 1 with 1Kints
+// time = 2 with 4Kints
+// time = 3 with 8Kints
+// time = 13 with 16Kints
+// time = 16 with n = 1000 and random arr
+// time = 16 with n = 1000 and increase arr
+// time = 16 with n = 1000 and decrease arr
+// time = 31 with n = 1000 and samevalue arr = other arr * 2
+#quicksort
+// time = 0 with n = 567 and random arr
+// time = 1 with n = 567 and increase arr
+// time = 1 with n = 1000 and random arr
+// time = 4 with n = 1000 and increase arr
+// time = 4 with n = 1000 and decrease arr
+// time = 1 with 1Kints and not shuffle
+// time = 3 with 1Kints and shuffle
+// time = 16 with 32Kints and not shuffle
+// time = 15 with 32Kints and shuffle
+
+
+
+
