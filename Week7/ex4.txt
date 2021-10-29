@@ -1,0 +1,8 @@
+- Nếu danh sách được liên kết là danh sách liên kết đơn, Insertion Sort hoạt động kém vì nó không thể duyệt ngược, Selection Sort hoạt động như bình thường.
+
+- Nếu danh sách được liên kết là danh sách được liên kết Đôi, thì cả Insertion Sort và Selection Sort đều thực hiện tốt.
+ 
+Tuy nhiên Lựa chọn Sắp xếp độ phức tạp xấu nhất / tốt nhất / trung bình là O (n * n),
+và Insertion Sort độ phức tạp gần giống như Selection Sort, kịch bản tốt nhất của nó là O (n) nơi danh sách liên kết đã được sắp xếp.
+
+  => Chúng ta không nên sử dụng cả hai thuật toán sắp xếp liên quan đến danh sách liên kết, thay vào đó nên triển khai Merge Sort vì nó sắp xếp tại chỗ: 
