@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch threeSum",
+            "request": "launch",
+            "mainClass": "threeSum",
+            "projectName": "Week2_67090645"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeSum",
+            "request": "launch",
+            "mainClass": "ThreeSum",
+            "projectName": "Week2_67090645"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "Week2_67090645"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BatchAutomationApplication<batch-processing>",
+            "request": "launch",
+            "mainClass": "com.example.BatchAutomationApplication",
+            "projectName": "batch-processing",
+            "cwd": "C:\\dev\\logs",
+            "classPaths": [
+                "${workspaceFolder}\\bin\\main"
+            ]
+        }
+    ]
+}
